@@ -1,0 +1,119 @@
+.main-card{
+    border: 2px solid lightgrey;
+    border-radius: 10px;
+    width: 300px;
+    margin: 50px auto;
+    /* padding: 50px; */
+}
+.main-card h1{
+    padding: 10px;
+}
+.cards{
+    border-top: 1px solid lightgray;
+    padding: 20px 80px;
+}
+.card1{
+    border: 1px solid lightgray;
+    width: 300px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+}
+.card1-input{
+    width: 100%;
+    padding: 10px;
+    border:2px solid rgb(95, 15, 215);
+    text-align: center;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+
+}
+.card1-button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(44, 44, 247);
+    color: white;
+    border-radius: 10px;
+}
+
+.card2{
+    border: 1px solid lightgray;
+    font-size: 18px;
+    width: 300px;
+    margin: 50px auto;
+    padding: 35px;
+    text-align: center;
+}
+.card2-desc{
+    color: gray;
+}
+.card2-input{
+    width: 100%;
+    padding: 10px;
+    border:2px solid rgb(95, 15, 215);
+    text-align: left;
+    box-sizing: border-box;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    font-size: 15px;
+
+}
+.card2-button{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: rgb(44, 44, 247);
+    color: white;
+    border-radius: 10px;
+    font-size: 16px;
+}
+.card2-sec-div {
+ padding-top: 20px;
+}
+.card2-sec{
+    font-size: 17px;
+    padding-top: 10px;
+    padding-left: 10px;
+    color: gray;
+}
+
+.card3{
+    border: 1px solid grey;
+    border-radius: 5px;
+    width:300px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+}
+.card3-desc{
+    color: gray;
+    font-size: 18px;
+}
+.card3-work{
+    background-color: lightgray;
+    padding: 15px;
+    text-align: left;
+}
+.padding-right{
+    padding-right: 10px;
+}
+.arr{
+    align-items: end;
+}
+.card3-span{
+    padding-right: 180px;
+    font-size: 18px;
+}
+.card3-personal{
+    /* background-color: lightgray; */
+    padding: 15px;
+    text-align: left;
+}
+.card3-span-personal{
+    padding-right: 180px;
+    font-size: 17px;
+}
