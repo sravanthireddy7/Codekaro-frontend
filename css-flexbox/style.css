@@ -1,0 +1,96 @@
+body{
+    margin: 0px;
+    background-color: grey;
+}
+
+.main{
+    width: 400px;
+    margin: 40px auto;
+    text-align: center;
+    color: white;
+}
+.img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.flex-container{
+    width: 550px;
+    height: 350px;
+    display: flex;
+    background-color: white;
+    color: black;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 30px;
+    padding: 10px;
+    border-radius: 20px;
+}
+.flex-content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-between; */
+    gap: 15px;
+}
+.row1{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.google{
+    font-size: 18px;
+}
+.ver-img{
+    width: 20px;
+}
+.per-img{
+    width: 20px;
+}
+.dots-img{
+    width: 30px;
+}
+.flex-button1{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.flex-button2{
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.row2{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.goo-btn{
+    background-color: rgb(214, 197, 197);
+    color: black;
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+.row3{
+    display: flex;
+
+}
+.row4{
+    display: flex;
+}
+.row5{
+    display: flex;
+    text-align: start;
+}
+.row6{
+    display: flex;
+    text-align: start;
+}
