@@ -1,0 +1,126 @@
+body{
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgb(67, 66, 66);
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+.hero-img{
+    width: 100%;
+    height: 100vh;
+    transform: scale(1.4);
+}
+.tint{
+    background-color: rgba(0, 0, 0, 0.045);
+    background-image: linear-gradient(7deg, rgba(0, 0, 0, 0.8500) 10.00%, rgba(0, 0, 0, 0.8465) 17.25%, rgba(0, 0, 0, 0.8361) 24.50%, rgba(0, 0, 0, 0.8187) 31.75%, rgba(0, 0, 0, 0.7944) 39.00%, rgba(0, 0, 0, 0.7632) 46.25%, rgba(0, 0, 0, 0.7250) 53.50%, rgba(0, 0, 0, 0.6868) 60.75%, rgba(0, 0, 0, 0.6556) 68.00%, rgba(0, 0, 0, 0.6312) 75.25%, rgba(0, 0, 0, 0.6139) 82.50%, rgba(0, 0, 0, 0.6035) 89.75%, rgba(0, 0, 0, 0.6000) 97.00%);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.content{
+    position:absolute;
+    top:0;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+.logo{
+    color: red;
+}
+.nav{
+    width: 90%;
+    position: absolute;
+    top:0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+}
+.nav-flex{
+    display: flex;
+    gap: 20px;
+}
+.btn-signin{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-weight: 600;
+    border: none;
+}
+.btn-english{
+    background-color: transparent;
+    color: white;
+    font-weight: 600; 
+    border: 1px solid gray; 
+    border-radius: 5px; 
+    padding: 10px 20px;
+}
+.sub-title{
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.desc{
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+.content-flex{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.inp-con{
+    font-size: 16px;
+    width: 300px;
+    padding: 10px;
+    border:1px solid gray;
+    border-radius: 10px;
+}
+.btn-con{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-weight: 600;
+    border: none;
+}
+
+.info{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    border: 1px solid gray;
+    width: 300px;
+    border-radius: 10px;
+    background-color: rgb(40, 21, 40);
+    color: white;
+    padding: 10px;
+}
+
+.container{
+    margin: 20px 20%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    width: 900px;
+    justify-content: space-between;
+    align-items: center;
+}
+.tv-img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    background-color: transparent;
+}
